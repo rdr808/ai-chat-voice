@@ -128,7 +128,7 @@ export default function App() {
               value={prompt}
               onChange={(event) => setPrompt(event.target.value)}
               onKeyDown={handlePromptKeyDown}
-              placeholder="Напишите ваш запрос... (Enter отправить, Shift+Enter новая строка)"
+              placeholder="Напишите ваш запрос..."
               rows={6}
               disabled={requestState === "loading"}
             />
